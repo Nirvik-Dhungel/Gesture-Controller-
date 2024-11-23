@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#instruction {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    z-index: 1000;
+}
+
+#content {
+    height: 2000px; /* Just to create enough scrollable content */
+    background: linear-gradient(45deg, #f06, yellow);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+}
